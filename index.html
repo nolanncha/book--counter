@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Book Counter</title>
+</head>
+<body>
+  <h1>Books Read in 2025: <span id="count">0</span></h1>
+  <button onclick="increaseCount()">Read another book</button>
+
+  <script>
+    let count = 0;
+
+    function increaseCount() {
+      count++;
+      document.getElementById("count").innerHTML = count;
+    }
+  </script>
+</body>
+</html>
